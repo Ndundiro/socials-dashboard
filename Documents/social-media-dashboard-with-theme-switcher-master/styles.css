@@ -1,0 +1,97 @@
+.first {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
+    
+}
+
+.big-cards {
+   
+    background-color: hsl(227, 47%, 96%);
+    width: 15rem;
+    height: 12rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    margin-top: 1rem; 
+}
+
+.first :hover {
+    background-color: #e1def0;
+    cursor: pointer;
+}
+
+.big-card1 {
+    border-top: solid 0.3rem hsl(208, 92%, 53%);
+}
+
+.big-card2 {
+    border-top: 0.3rem solid hsl(203, 89%, 53%);
+}
+
+.big-card3 {
+    /* background: linear-gradient(to right, red, purple); */
+    border-top: 0.3rem solid linear-gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+    
+}
+
+.big-card4 {
+    border-top: solid 0.3rem hsl(348, 97%, 39%);
+}
+
+.big-cards > p {
+    display: block;
+    font-family: 'Inter', sans-serif;
+}
+
+.other {
+    padding-left: 3rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.second1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.second1 :hover {
+    background-color: #e1def0;
+    cursor: pointer;
+}
+
+.second2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.second2 :hover {
+    background-color: #e1def0;
+    cursor: pointer;
+}
+
+.small-cards {
+    background-color: #f0f1fa;
+    width: 15rem;
+    height: 7rem;
+    margin-top: 1rem;
+}
+
+
+.down {
+color: red;
+}
+
+.up {
+    color: green;
+}
+
+.span1 {
+padding-left: 1rem;
+}
+
+.span2 {
+    padding-left: 6rem;
+}
